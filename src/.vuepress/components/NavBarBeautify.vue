@@ -13,7 +13,7 @@ const CheckScrollTopClass = (path?) => {
     return null;
   }
   const themeElm = themeElms[0];
-  if (scrollTop < 60 && (toPath == '/' || toPath == '/en/')) {
+  if (scrollTop < 60 && (toPath == '/cyber-fortress/' || toPath == '/cyber-fortress/en/')) {
     themeElm.classList.add('scroll-top');
   } else {
     themeElm.classList.remove('scroll-top');
