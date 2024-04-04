@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "https://mxoop.github.io/static//cyber-fortress/cyber-fortress.jpg",
 
-  repo: "mxoop/mxoop.github.io",
+  repo: "mxoop/cyber-fortress",
 
   docsDir: "src",
 

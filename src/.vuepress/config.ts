@@ -1,6 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { getDirname, path } from "vuepress/utils";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { cut } from "nodejs-jieba";
 
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
@@ -21,4 +23,22 @@ export default defineUserConfig({
       "./components/BlogHero.vue",
     ),
   },
+
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+      hotReload: true,
+      customFields: [
+        {
+          getter: ({ frontmatter }): string[] => <string[]>frontmatter["tag"],
+          formatter: `Tag: $content`,
+        },
+      ],
+      indexOptions: {
+        tokenize: (text, fieldName) =>
+          fieldName === "id" ? [text] : cut(text, true),
+      },
+    }),
+  ],
+
 });
