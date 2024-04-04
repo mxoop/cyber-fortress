@@ -1,0 +1,132 @@
+// place your custom styles here
+$red: #f66;
+$pueple: #66f;
+$orange: #f90;
+$blue: #09f;
+$cyan: #9c3;
+$green: #3c9;
+a,
+b {
+	margin: 0.2rem;
+}
+code {
+	margin: 0.2rem;
+	&.red {
+		color: $red;
+	}
+}
+hr {
+	border-top-color: $red;
+}
+img[src^="https://img.shields.io"]:not(:last-child)
+{
+	margin-right: 0.4rem;
+}
+.center {
+	margin: 0 auto;
+}
+.line {
+	display: block;
+	position: relative;
+	margin: 20px 0;
+	line-height: 1.5;
+	&.line-top {
+		margin-top: 40px;
+		&::before {
+			position: absolute;
+			left: 0;
+			bottom: 100%;
+			margin-bottom: 19px;
+			width: 100%;
+			height: 1px;
+			background-color: $red;
+			content: "";
+		}
+	}
+	&.line-bottom {
+		margin-bottom: 40px;
+		&::before {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			margin-top: 19px;
+			width: 100%;
+			height: 1px;
+			background-color: $red;
+			content: "";
+		}
+	}
+}
+.point {
+	display: block;
+	padding: 0 10px;
+	font-style: normal;
+	&::before {
+		margin-right: 5px;
+		font-weight: bold;
+		font-size: 20px;
+		content: "·";
+	}
+}
+.mark-red {
+	font-weight: bold;
+	color: $red;
+}
+.mark-purple {
+	font-weight: bold;
+	color: $pueple;
+}
+.mark-orange {
+	font-weight: bold;
+	color: $orange;
+}
+.mark-blue {
+	font-weight: bold;
+	color: $blue;
+}
+.mark-cyan {
+	font-weight: bold;
+	color: $cyan;
+}
+.mark-green {
+	font-weight: bold;
+	color: $green;
+}
+// 样式覆盖
+.vp-hero-info-wrapper {
+	min-height: 600px;
+}
+.vp-highlight-item-wrapper {
+	transition: all 300ms;
+}
+.vp-feature-item {
+	@media (width >= 1440px) {
+		flex-basis: calc(33% - 3rem);
+	}
+}
+
+// 中横线样式覆盖
+@font-face {
+	font-family: "iconfont"; /* Project id 3855310 */
+	src: url('//at.alicdn.com/t/c/font_3855310_u33584v4jsc.woff2?t=1698655657622') format('woff2'),
+		 url('//at.alicdn.com/t/c/font_3855310_u33584v4jsc.woff?t=1698655657622') format('woff'),
+		 url('//at.alicdn.com/t/c/font_3855310_u33584v4jsc.ttf?t=1698655657622') format('truetype'),
+		 url('//at.alicdn.com/t/c/font_3855310_u33584v4jsc.svg?t=1698655657622#iconfont') format('svg');
+  }
+  
+.iconfont {
+font-family: "iconfont" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.none {
+	width: 0;
+	height: 0;
+	user-select: none;
+	pointer-events: none;
+	overflow: hidden;
+	display: none;
+}
