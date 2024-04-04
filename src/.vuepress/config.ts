@@ -4,7 +4,7 @@ import { getDirname, path } from "vuepress/utils";
 
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
-  base: "/",
+  base: "/cyber-fortress/",
 
   lang: "zh-CN",
   title: "Cyber-fortress",
