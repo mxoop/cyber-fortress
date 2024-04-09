@@ -63,11 +63,11 @@ server:
 
 common:
   instance_addr: 127.0.0.1
-  path_prefix: /tmp/loki
+  path_prefix: /mydata/loki/tmp/loki
   storage:
     filesystem:
-      chunks_directory: /tmp/loki/chunks
-      rules_directory: /tmp/loki/rules
+      chunks_directory: /mydata/loki/tmp/loki/chunks
+      rules_directory: /mydata/loki/tmp/loki/rules
   replication_factor: 1
   ring:
     kvstore:
@@ -96,6 +96,8 @@ limits_config:  #设置全局和每租户限制
   reject_old_samples: true #是否拒绝旧样本。默认值为 true
   reject_old_samples_max_age: 1w #拒绝旧样本的最大年龄。默认值为 1w（1周）。
   max_streams_per_user: 5000 #每个用户的最大活动流数。默认值为 0（禁用）。
+  ingestion_rate_mb: 32
+  ingestion_burst_size_mb: 64
 
 table_manager:
   retention_deletes_enabled: true  #允许删除数据库表中的过期数据。
@@ -144,7 +146,7 @@ server:
   grpc_listen_port: 0
 
 positions:
-  filename: /tmp/positions.yaml
+  filename: /mydata/promtail/tmp/positions.yaml
 
 clients:
   - url: http://localhost:3100/loki/api/v1/push
