@@ -54,6 +54,8 @@ tar.gz：使用 tar -zxvf your_file -C path
 
 ### Loki配置
 
+>https://grafana.com/docs/loki/latest/configure/
+
 ~~~yaml
 auth_enabled: false
 
@@ -139,6 +141,8 @@ analytics:
 
 
 ### Promtail配置
+
+>https://grafana.com/docs/loki/latest/send-data/promtail/configuration/
 
 ~~~yaml
 server:
@@ -234,7 +238,7 @@ nohup ./promtail-linux-amd64 -config.file=promtail-local-config.yaml > promtail.
 nohup ./promtail-linux-amd64 -config.file=promtail-local-config.yaml &
 
 # grafana
-./grafana-server
+nohup ./grafana-server &
 ~~~
 
 
