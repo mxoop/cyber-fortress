@@ -1,1 +1,0 @@
-import{_ as o,r as t,o as n,K as s,L as a,a as c}from"./app-D_BLseZ8.js";const _={},l=c("div",{class:"none"},"内容美化",-1);function r(i,f){const e=t("ClientOnly");return n(),s(e,null,{default:a(()=>[l]),_:1})}const d=o(_,[["render",r],["__file","BlogBeautify.vue"]]);export{d as default};
