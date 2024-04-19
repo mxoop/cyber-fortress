@@ -1,13 +1,14 @@
 ---
-title: 部署篇
-index: true
+title: Redis
+index: false
 article: false
-icon: book
+icon: coins
 category:
-  - deploy
+  - 架构
   
 tag:
-  - deploy
+  - 架构
+  - redis
 
 copyright: false
 

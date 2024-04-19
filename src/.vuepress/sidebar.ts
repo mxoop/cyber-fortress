@@ -15,7 +15,30 @@ export default sidebar({
       // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
       children:"structure"
+    },
+    {
+      text: "架构篇",
+      icon: "dragon",
+      prefix: "architecture/",
+      link: "architecture/",
+      collapsible: true,
+      children: [
+        "java/",
+        "mq/",
+        "mysql/",
+        "redis/"
+      ],
+    },
+    {
+      text: "随笔篇",
+      icon: "bug",
+      prefix: "essay/",
+      link: "essay/",
+      collapsible: true,
+      children:"structure"
     }
   ],
-  // "/deploy/": "structure",
+  "/architecture/": "structure",
+  "/deploy/": "structure",
+  "/essay/": "structure",
 });

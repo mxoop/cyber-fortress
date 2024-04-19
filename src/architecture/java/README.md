@@ -1,13 +1,14 @@
 ---
-title: 部署篇
-index: true
+title: Java
+index: false
 article: false
-icon: book
+icon: poo-storm
 category:
-  - deploy
+  - 架构
   
 tag:
-  - deploy
+  - 架构
+  - Java
 
 copyright: false
 

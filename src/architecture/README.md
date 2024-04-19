@@ -1,13 +1,13 @@
 ---
-title: 部署篇
+title: 架构篇
 index: true
 article: false
-icon: book
+icon: dragon
 category:
-  - deploy
+  - 架构
   
 tag:
-  - deploy
+  - 架构
 
 copyright: false
 

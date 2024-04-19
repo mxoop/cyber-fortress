@@ -1,13 +1,13 @@
 ---
-title: 部署篇
+title: 随笔篇
 index: true
 article: false
-icon: book
+icon: bug
 category:
-  - deploy
+  - 随笔
   
 tag:
-  - deploy
+  - 随笔
 
 copyright: false
 

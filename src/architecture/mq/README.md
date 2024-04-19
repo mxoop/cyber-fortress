@@ -1,13 +1,14 @@
 ---
-title: 部署篇
-index: true
+title: Mq
+index: false
 article: false
-icon: book
+icon: square-envelope
 category:
-  - deploy
+  - 架构
   
 tag:
-  - deploy
+  - 架构
+  - 消息中间件
 
 copyright: false
 

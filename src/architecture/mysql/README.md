@@ -1,13 +1,13 @@
 ---
-title: 部署篇
-index: true
+title: Mysql
+index: false
 article: false
-icon: book
+icon: database
 category:
-  - deploy
+  - 架构
   
 tag:
-  - deploy
+  - 架构
 
 copyright: false
 
