@@ -382,7 +382,7 @@ logstash-plugin install logstash-codec-json_lines
 
 ## 完结效果
 
-![](/assets/images/docker_elk_deploy_01.png)
+![](./../.vuepress/public/assets/images/docker_elk_deploy_01.png)
 
 
 
@@ -401,7 +401,7 @@ logstash-plugin install logstash-codec-json_lines
 
 ### 创建索引策略
 
-![](/assets/images/docker_elk_deploy_02.png)
+![](./../.vuepress/public/assets/images/docker_elk_deploy_02.png)
 
 脚本
 
@@ -433,9 +433,7 @@ PUT _ilm/policy/ilm_policy_delete_log
 
 ### 创建索引模板
 
-![](/assets/images/docker_elk_deploy_03.png)
-
-
+![](./../.vuepress/public/assets/images/docker_elk_deploy_03.png)
 
 - 脚本
 

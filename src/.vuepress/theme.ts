@@ -14,7 +14,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://mxoop.github.io/static//cyber-fortress/cyber-fortress.jpg",
+  logo: "https://mxoop.github.io/static/cyber-fortress/cyber-fortress.jpg",
 
   repo: "mxoop/cyber-fortress",
 
@@ -51,7 +51,7 @@ export default hopeTheme({
   blog: {
     description: "RAIN.K's bolog",
     intro: "/intro.html",
-    avatar: 'https://mxoop.github.io/static//cyber-fortress/cyber-fortress.jpg',
+    avatar: 'https://mxoop.github.io/static/cyber-fortress/cyber-fortress.jpg',
     roundAvatar: true,
     medias: {
       Baidu: "https://example.com",
