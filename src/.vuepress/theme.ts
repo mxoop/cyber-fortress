@@ -53,6 +53,7 @@ export default hopeTheme({
     intro: "/intro.html",
     avatar: 'https://mxoop.github.io/static/cyber-fortress/cyber-fortress.jpg',
     roundAvatar: true,
+    articlePerPage: 5,
     medias: {
       Baidu: "https://example.com",
       BiliBili: "https://example.com",
