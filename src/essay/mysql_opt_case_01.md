@@ -2,7 +2,7 @@
 # title: 
 order: 1
 star: true
-date: 2024-04-017
+date: 2024-04-17
 copyright: false
 footer: true
 category:
@@ -12,11 +12,11 @@ tag:
   - mysql
 ---
 
-# Mysql优化中，你不知道的秘密！
+# Mysql优化丨项目刚上线
 
 
 
-***前言：*** 本文记录的是一次从开发到测试环境上线的接口调优之MySQL调优手段。
+***前言：*** 本文记录的是一次从开发到测试环境上线的接口调优之MySQL调优手段以及部署上线压测遇到的其他问题解决
 
 ---
 
